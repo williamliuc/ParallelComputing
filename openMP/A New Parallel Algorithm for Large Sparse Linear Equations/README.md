@@ -1,3 +1,3 @@
-该程序是基于消去树的双重任务调度算法（以下简称DTET）的实现，运行环境为intel提供的knl运行环境，处理器为Xeon Phi7250 68core 16G MCDRAM 1.4GHz，编译环境是parallel_studio_xe_2017.
+该程序是解大型稀疏对称线性方程组的实现，其中前推回代部分使用了基于消去树的双重任务调度算法（以下简称DTET），DTET算法部分主要在LE_SymSprsMat.cpp文件及LE_FBackwardSym.cpp文件中。运行环境为intel提供的knl运行环境，处理器为Xeon Phi7250 68core 16G MCDRAM 1.4GHz，编译环境是parallel_studio_xe_2017.
 1. 若要运行使用DTET算法后的程序，直接下载该文件夹下所有文件，然后在intel提供的knl运行环境中make生成可执行文件test1，然后直接运行即可。
 2. 若要运行原始程序，原始程序的文件在该文件夹下的origin文件夹中，将该文件夹下的相应文件用origin中的文件替换即得到原始程序的源文件。
