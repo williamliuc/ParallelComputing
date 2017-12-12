@@ -495,6 +495,7 @@ int main(int argc, char* argv[])
 	LU_SymbolicSymG(&A,&U);//稀疏实数对称矩阵符号因子分解，确定U阵结构和元素个数
 	LU_NumbericSymG(&A,&U);//稀疏实数对称矩阵数值因子分解，确定U阵元素值
 
+	//the following two loops can be seen as solving one million b-vectors
 	for(i=0; i<10000; i++)
 	{
 		for(j=0;j<100;j++)
