@@ -13,9 +13,9 @@
 这是[百度](http://www.baidu.com)  
 ## skdfjkds  
     #include<stdio.h>
-void main(){
+    void main(){
        printf("sdfsdfsdf");
-}
+    }
 
 
 就像`this is a code`一样
