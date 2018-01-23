@@ -22,7 +22,7 @@
   
   
 title | title 1 | title 2 | title3  
-----|----|----|----  
+----|:----:|:----:|----:  
 left|center|center|right  
   
   xx|xx|xx  
