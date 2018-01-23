@@ -8,4 +8,4 @@
 *ParallelComputing*
 -----------------
 
-[solving large sprase linear equations](http://github.com/williamliuc/
+[solving large sprase linear equations](http://github.com/williamliuc/)
