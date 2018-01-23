@@ -19,6 +19,6 @@
 
 
 就像`this is a code`一样  
-|title|title 1|title 2|title3|  
+| title| title 1| title 2| title3|  
 |-----|:---:|:---:|-----:|  
 |left|center|center|right|
