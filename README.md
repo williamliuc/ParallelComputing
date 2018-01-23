@@ -18,4 +18,6 @@
     }
 
 
-就像`this is a code`一样
+就像`this is a code`一样  
+|title|title 1|title 2|title3|
+|-----|:---:|:---:|-----:|
