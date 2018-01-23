@@ -1,5 +1,5 @@
 **Introduction**
-==========================
+==========================  
 This program is to solve the large sparse symmetric linear equations, in which the forward part and back part use the self-created algorithm from Shandong University Wang Dong, the algorithm name is : Double Task Scheduling Algorithm Based on Elimination Tree(DTET). The result is about 6 times higher than that of the previous iterative program without DTET algorithm. The theoretical value can be increased by about 12 times (after vectorization), I will give you a 12 times improvement on this github in the future. Part of the implementation of the DTET algorithm is mainly in the LE_SymSprsMat.cpp file and the LE_FBackwardSym.cpp file. Operating environment for the knl knit operating environment provided by intel, the processor is Xeon Phi7250 68core 16G MCDRAM 1.4GHz, compilation environment is parallel_studio_xe_2017.  
 **how to run this program**  
 ====================================
