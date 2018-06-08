@@ -1,4 +1,7 @@
 !fortran 非阻塞通信例子
+!0号进程数组test_array(1,2,3,4,5),1号进程数组test_array(6,7,8,9,10),使用mpi非阻塞通信交换不同进程数组的后两个值
+!编译 mpif90 main.F90 -o main
+!运行 
         module grist_mpi
           include 'mpif.h' 
           contains
